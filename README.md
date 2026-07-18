@@ -92,7 +92,7 @@ This project analyzes **150,000 Uber ride bookings** to uncover demand patterns,
 
 ### Overview
 
-![Uber Data Analysis](https://github.com/parthadata7/Uber-Ride-Booking-Analysis-SQL-Power-BI-Python)
+![Uber Data Analysis](https://github.com/parthadata7/Uber-Ride-Booking-Analysis-SQL-Power-BI-Python/blob/main/screenshot/1%20Overview.png)
 
 ## 📈 Dashboard Features
 
