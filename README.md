@@ -92,7 +92,7 @@ This project analyzes **150,000 Uber ride bookings** to uncover demand patterns,
 
 ### Overview
 
-![Uber Data Analysis](1)
+![Uber Data Analysis](https://github.com/parthadata7/Uber-Ride-Booking-Analysis-SQL-Power-BI-Python)
 
 ## 📈 Dashboard Features
 
@@ -120,7 +120,7 @@ Provide a high-level snapshot of Uber’s operational and financial performance.
 
 ### Vehicles
 
-![Uber Data Analysis](2)
+![Uber Data Analysis](https://github.com/parthadata7/Uber-Ride-Booking-Analysis-SQL-Power-BI-Python/blob/main/screenshot/2%20Vehicle.png)
 
 ## 📈 Dashboard Features
 
@@ -151,7 +151,7 @@ Analyze vehicle performance to optimize fleet usage.
 
 ### Revenue
 
-![Uber Data Analysis](3)
+![Uber Data Analysis](https://github.com/parthadata7/Uber-Ride-Booking-Analysis-SQL-Power-BI-Python/blob/main/screenshot/3%20Revenue.png)
 
 ## 📈 Dashboard Features
 
@@ -545,7 +545,7 @@ booking conversion → time slots → cancellation drivers → peak demand → l
 
 ### How much demand actually converts?
 
-![Booking Status Breakdown](2a)
+![Booking Status Breakdown](https://github.com/parthadata7/Uber-Ride-Booking-Analysis-SQL-Power-BI-Python/blob/main/screenshot/Charts/2a.png)
 
 ### Insight
 
@@ -557,7 +557,7 @@ Only 62% of 150K bookings completed.
 
 ### Time Slot Analysis
 
-![Time Slot Analysis](3a)
+![Time Slot Analysis](https://github.com/parthadata7/Uber-Ride-Booking-Analysis-SQL-Power-BI-Python/blob/main/screenshot/Charts/3a.png)
 
 ### Insight
 
@@ -567,7 +567,7 @@ Demand is concentrated in the **Morning (30%)** and **Evening (29%)**, which tog
 
 ### Cancellation Categories
 
-![Cancellation Categories](3a)
+![Cancellation Categories](https://github.com/parthadata7/Uber-Ride-Booking-Analysis-SQL-Power-BI-Python/blob/main/screenshot/Charts/3b.png)
 
 ### Insight
 
@@ -579,7 +579,7 @@ Among failed bookings, **driver cancellations account for 27,000 bookings**, mak
 
 ### Peak Demand
 
-![Peak Demand](4a)
+![Peak Demand](https://github.com/parthadata7/Uber-Ride-Booking-Analysis-SQL-Power-BI-Python/blob/main/screenshot/Charts/4a.png)
 
 ### Insight
 
@@ -591,7 +591,7 @@ Demand peaks during the **evening commute**, particularly between **6 PM and 7 P
 
 ### High-Demand, High-Cancellation Locations
 
-![High-Demand, High-Cancellation Locations](4b)
+![High-Demand, High-Cancellation Locations](https://github.com/parthadata7/Uber-Ride-Booking-Analysis-SQL-Power-BI-Python/blob/main/screenshot/Charts/4b.png)
 
 ### Insight
 
@@ -607,7 +607,7 @@ have cancellation rates above the platform average.
 
 ### Cancellation Imbalance
 
-![Cancellation Imbalance](4c)
+![Cancellation Imbalance](https://github.com/parthadata7/Uber-Ride-Booking-Analysis-SQL-Power-BI-Python/blob/main/screenshot/Charts/4c.png)
 
 ### Insight
 
@@ -619,7 +619,7 @@ Drivers cause 72% of all cancellations vs. 28% by customers.
 
 ### Booking Trends and Cancelation Rate
 
-![Booking Trends and Cancelation Rate](5a)
+![Booking Trends and Cancelation Rate](https://github.com/parthadata7/Uber-Ride-Booking-Analysis-SQL-Power-BI-Python/blob/main/screenshot/Charts/5a.png)
 
 ### Insight
 
@@ -631,7 +631,7 @@ The cancellation problem is persistent rather than seasonal. The consistency of 
 
 ### Distance vs. Completion
 
-![Distance vs. Completion](6a)
+![Distance vs. Completion](https://github.com/parthadata7/Uber-Ride-Booking-Analysis-SQL-Power-BI-Python/blob/main/screenshot/Charts/6a.png)
 
 ### Insight
 
@@ -643,7 +643,7 @@ Approximately 24% of short rides (0–5 km) with recorded distance remain incomp
 
 ### Revenue Leakage
 
-![Distance vs. Completion](6a)
+![Distance vs. Completion](https://github.com/parthadata7/Uber-Ride-Booking-Analysis-SQL-Power-BI-Python/blob/main/screenshot/Charts/7a.png)
 
 ### Insight
 
@@ -694,25 +694,11 @@ Improving ride reliability and reducing driver cancellations must be the top ope
 ## Project Structure
 
 ```text
-├── data/
-│   ├──raw_data.xlsx
-│   ├──sold_players.xlsx
-│   ├──finsal_data.xlsx
-│   └──finsal_data_with_dashboard.xlsx
-├── screenshots/
-│   ├──assets
-│   ├──charts
-│   ├──dashboard.png
-├── panda
-│   ├──01_Data_understanding_and_cleaning.ipynb
-│   ├──02_Which_team_spent_the_most.ipynb
-│   ├──03_Capped_vs_Uncapped_Player_Trends.ipynb
-│   ├──04_Foreign_vs_Domestic_Distribution.ipynb
-│   ├──05_Most_Expensive_Player_Role.ipynb
-│   ├──06_Team-wise_Spending_Strategy.ipynb
-│   └──07_How_franchises_actually_build_their_squads.ipynb
+├── data
+├── Powerbi
+├── screenshot
+├── python
 ├── SQL
-│   └──schema_and_kpis.sql
 └── README.md
 ```
 
@@ -727,5 +713,3 @@ Improving ride reliability and reducing driver cancellations must be the top ope
 **LinkedIn:** []()
 
 **Portfolio:** []()
-
-**GitHub:** []()
